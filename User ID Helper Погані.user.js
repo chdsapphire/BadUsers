@@ -12,8 +12,8 @@
 // @match http://www5.charmdate.com/**
 // @match http://www6.charmdate.com/**
 // @match http://www7.charmdate.com/**
-// @updateURL   https://github.com/chdsapphire/BadUsersCharmDate/blob/main/User%20ID%20Helper%20%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96.user.js
-// @downloadURL https://github.com/chdsapphire/BadUsersCharmDate/blob/main/User%20ID%20Helper%20%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96.user.js
+// @updateURL   chrome-extension://mfdhdgbonjidekjkjmjaneanmdmpmidf/ask.html?aid=a7610673-61bc-40ff-b8f5-3d5dd8f4f1f2
+// @downloadURL chrome-extension://mfdhdgbonjidekjkjmjaneanmdmpmidf/ask.html?aid=a7610673-61bc-40ff-b8f5-3d5dd8f4f1f2
 // ==/UserScript==
 // ==/UserScript==
 
