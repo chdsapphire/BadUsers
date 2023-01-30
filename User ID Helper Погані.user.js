@@ -137,3 +137,32 @@ parent.appendChild(newElement);
 }
 });
 })();
+
+(function() {
+    'use strict';
+    
+    let links = document.querySelectorAll("td a");
+    
+    links.forEach(function(link) {
+      if (link.textContent.includes("CM31876079")) {
+        let parent = link.parentElement;
+        let newElement = document.createElement("div");
+        newElement.innerHTML = "Не відправляти повідомленн через невидимий символ";
+        newElement.style.display = "none";
+    
+        let button = document.createElement("button");
+        button.innerHTML = "ℹ️";
+        button.style.marginLeft = "7px";
+        button.addEventListener("click", function() {
+          if (newElement.style.display === "none") {
+            newElement.style.display = "block";
+          } else {
+            newElement.style.display = "none";
+          }
+        });
+    
+        parent.appendChild(button);
+        parent.appendChild(newElement);
+      }
+    });
+    })();
