@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper BadUsers
 // @namespace http://example.com/
-// @version 1.066
+// @version 1.067
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -2265,6 +2265,732 @@
   let parent = link.parentElement;
   let newElement = document.createElement("div");
   newElement.innerHTML = "жалоба что не доставлен подарок";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM74213992")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жалвоался на то что просят подарок (если просите то будьте убедительными а не просто клянчить)";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM55749569")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жалвоался на порно в общении (исключить эту тематику и не использовать ее для вызова мужчины в чат)";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM27489074")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на то что чат прервался (иметь заряженый павербанк и шнур для запитки роутера на случай чата с этим мужчиной)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM31705053")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "писал , что леди фейк и не хочет встречи с ним в реальной жизни + возврат денег за общение  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM12690531")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "пожаловался , что леди не дала контактную инфу ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM19692734")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "написал жалобу о том , что леди не пополнила ему кредиты и это затруднило общение ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM13330695")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "написал , что у леди другое семейное положение нежели написано на сайте ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM84233482")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался что евушки нет онлайн (договориваться с мужчиной на чат заранее) ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM52231938")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жалуется на скорость чтения писем (важно давать быстрый ответ) ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM11323442")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жалуется на порно в общении (исключить данную тему из общения) ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM18557061")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на дубликат письма (писать всегда индивидуально) ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM28380077")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жалуется на подлиность девушки (если начинает проверки лучше вык камеру) ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM69665445")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на отказ девушки в выдачи контакт инфо (не давать обещаний касаемо контакт инфо и исключить из общения данную тему) ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM32073752")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жалвоался на отказ в обмене инфо (не давать обещний насчет выдачи контакт инфо и не развивать эту тему)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM81508716")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на отсутствие общения на почте (исключить тему контакт информации из общения и не давать обещаний по этой тематике)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM20082154")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на не дотсовлерную локацию девушки (не говорить мужчине что уже в его стране)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM99826030")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на отказ девушке в выдаче контакт инфо (не давать обещаний по данной теме желательно исключить данную тему из общения) ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM20082154")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на не дотсовлерную локацию девушки (не говорить мужчине что уже в его стране)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM39194146")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жалвоался на блокировку контакт инфо в чате (не давать обещаний по данной теме желательно исключить данную тему из общения)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM20493015")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на долгое прочтение его письма (преоритетно закрывать письма этому мужчине даже в ВС а так же преоритетно слать доп письма)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM18802314")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на отказ девушке в выдаче контакт инфо (не давать обещаний по данной теме желательно исключить данную тему из общения)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM19897295")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на отказ девушки в выдачи контакт инфо (не давать обещаний касаемо контакт инфо и исключить из общения данную тему)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM63355099")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на дороговизну видеочата (если начинает провреку ссылаться на плохой инет и оф камеру)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM41758012")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на отсуствие помощи девушке в предаче контакт инфо (аккуратно вести общение на данную тему)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM81508716")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на отсутствие общения на почте (исключить тему контакт информации из общения и не давать обещаний по этой тематике)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM26197957")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на отсуствие помощи девушке в предаче контакт инфо (аккуратно вести общение на данную тему)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM72333409")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на блур в фото при предаче инфы (аккуратно вести общение на эту тему)  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM33405912")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "жаловался на то что женщина врет о геолокации (не говорить мужчине что уже в его стране)  ";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "ℹ️";
