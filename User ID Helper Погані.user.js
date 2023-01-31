@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper BadUsers
 // @namespace http://example.com/
-// @version 1.065
+// @version 1.066
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -2213,7 +2213,7 @@
   if (link.textContent.includes("️CM44022558")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
-  newElement.innerHTML = "Максимально конченный, жаловался что не настоящая, общались на почте 3 месяца;
+  newElement.innerHTML = "Максимально конченный, жаловался что не настоящая, общались на почте 3 месяца"
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "❌Опасно";
