@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper BadUsers
 // @namespace http://example.com/
-// @version 1.071
+// @version 1.072
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -2626,7 +2626,7 @@
   if (link.textContent.includes("CM32073752")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
-  newElement.innerHTML = "жалвоался на отказ в обмене инфо (не давать обещний насчет выдачи контакт инфо и не развивать эту тему)  ";
+  newElement.innerHTML = "Особий статус.Йому перевіряють листи!жалвоался на отказ в обмене инфо (не давать обещний насчет выдачи контакт инфо и не развивать эту тему)  ";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "ℹ️";
