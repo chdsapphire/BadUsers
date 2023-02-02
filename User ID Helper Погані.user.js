@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper BadUsers
 // @namespace http://example.com/
-// @version 1.069
+// @version 1.070
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -3270,6 +3270,237 @@
   let parent = link.parentElement;
   let newElement = document.createElement("div");
   newElement.innerHTML = " жалуется если не отвечать на почту быстро ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM42339903")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " Complaint:Victor Keith - CM42339903–1.сайт заметил, что девушка связалась с этой мужчиной.потому что у мужчины большие жалобы с некоторыми девушками.поэтому советую девушке прекратить отправлять ему приглашения, или неправильно увлекать его.избегайте рисков, это очень важно, спасибо. 2.мужчина писал сайту, ему недовольно, что купил контакт двух девушек, но девушки вне сайта не отвечали ему.➡️ жалоба уже на сайте, заранее решите и ответите на админке Complaint Resolution Center .  скажите пожалуйста, вне сайта когда девушки связалтсь с мужчиной? лучше отправляйте скриншот. и советую девушке подхотяще отвечать мужчине, спасибо. ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM87989288")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " Complaint: Terry - CM87989288 мужчина сомневается, что в CamShare разные цветы ногтей девушки. ➡️пусть девушка подхотяще обьяснять и усопокоить мужяины, спасибо.жалоба уже на сайте, заранее решите и ответите на админке Complaint Resolution Center .потому что мужчина не требудется 90 дней, поэтому пока не сможет встречаться с девушкой. ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM93489654")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " Complaint: Tom - CM93489654➡️ Мужчине недовольно, что девушка не получала его письмо. Мужчина сказал, что он будет связаться с полицей.➡️Сайт заметил, что В ближайшие дни девушка неправильно увлекала мужчины в письмах и чатах. Мужчина уже сомневается о девушке. ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM70842485")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " Emil - CM70842485 - сайт заметил, что девушка похоже отказывала дать мужчине емайл. и мужчина похоже блокнировал этой девушки.скажите пожалуйста, у них сейчас какую ситуацию? и заранее откроите емайл девушки, спасибо. ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM11510477")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " Randy - CM11510477 – мужчина ОЧЕНЬ сердится. он хочет вернуть все кредиты. мужчине недовольно, что в письме сайт блокировал название.сайт заметил, что девушка умышленно писала цифры, чтобы ввести мужчины в заблуждение, заставив их думать, что это название больницы.пожалуйста, пусть девушка СРАЗУ прекратить неправильно направлять мужчины обменять контакт или встречаться в реальном. ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM38371990")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " Joseph - CM38371990 – сейчас мужчина жалуется, что неуспешно встречаться с девушкой. РИСК большой.и девушка сейчас продолжается неправильно направляет мужчины. (см. скриншот) пожалуйста, пусть девушка СКОРО прекратить неправильно направлять. Прекратите сказать мужчине, что она будет встречаться в реальном.  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "⚡️⚡️⚡️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM81508716")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " Anthony - CM81508716–1. мужчина не хочет получать звонок от девушки. пусть девушка прекратить позвонить ему, спасибо..2. мужчина сейчас блокирует девушки на сайте. если в будущем они снова связаться, тогда советую девушке хорошо отвечать и успокоить его.3. пусть девушка прекратить увлекать мужчины вне сайта встречаться. спасибо.1. мужчина сейчас блокирует девушки на сайте. если в будущем они снова связаться, тогда советую девушке хорошо отвечать и успокоить его.2. скажите пожалуйста, девушка будет ли встерачаться с мужчиной или дать контакты?3. девушка на сайте сказала мужчине, что ее сестра отвечала ему на телефон, и в чате. скажите пожалуйста, это правда?  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM27209072")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " JOHN - CM27209072–сейчас мужчина активно разгадывает шарады, хочет так обменять контакт с девушкой.советую девушке точно сказать мужчине, хочет ли она обменять контакт?советую девушке прекратить неправильно направлять, избегайте рисков. спасибо.  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM87338706")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = " Miles - CM87338706 – мужчина писал сайту, что деввушка не знает как открывать контакт.сайт заметил, что девушка в письме писала мужчине, что она пока не хочет обменять контакт. потому что мужчина ещё не читал письмо девшуки. поэтому советую девушке в чате сказать мужчине, что она пока не хочет обменять контакт.  ";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "ℹ️";
