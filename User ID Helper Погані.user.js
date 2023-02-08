@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper BadUsers
 // @namespace http://example.com/
-// @version 1.075
+// @version 1.077
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -3849,7 +3849,6 @@
 });
 })();
 
-CM87734803
 
 (function() {
   'use strict';
@@ -3861,7 +3860,7 @@ CM87734803
   newElement.innerHTML = "  Перевіря камеру  ";
   newElement.style.display = "none";
   let button = document.createElement("button");
-  button.innerHTML = "❌❌❌";
+  button.innerHTML = "‼️Поганець❌";
   button.style.marginLeft = "5px";
   button.addEventListener("click", function() {
   if (newElement.style.display === "none") {
