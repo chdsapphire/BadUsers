@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper BadUsers
 // @namespace http://example.com/
-// @version 1.073
+// @version 1.074
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -3828,7 +3828,7 @@
   'use strict';
   let links = document.querySelectorAll("td a");
   links.forEach(function(link) {
-  if (link.textContent.includes("CM72370999  ")) {
+  if (link.textContent.includes("CM72370999")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
   newElement.innerHTML = "  хочет купить контакт – если мужчина продолжает жаловаться, тогда жалоба будет на системе  ";
