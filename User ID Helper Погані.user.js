@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper BadUsers
 // @namespace http://example.com/
-// @version 1.079
+// @version 1.080
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -16,6 +16,7 @@
 // @downloadURL https://github.com/chdsapphire/BadUsers/raw/main/User%20ID%20Helper%20%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96.user.js
 // ==/UserScript==
 
+//Перевірка
 (function() {
   'use strict';
 
