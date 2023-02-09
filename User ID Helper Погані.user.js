@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper BadUsers
 // @namespace http://example.com/
-// @version 1.077
+// @version 1.078
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -15,6 +15,46 @@
 // @updateURL   https://github.com/chdsapphire/BadUsers/raw/main/User%20ID%20Helper%20%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96.user.js
 // @downloadURL https://github.com/chdsapphire/BadUsers/raw/main/User%20ID%20Helper%20%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96.user.js
 // ==/UserScript==
+
+(function() {
+  'use strict';
+
+  function checkForUpdates() {
+      console.log("Checking for updates...");
+
+      // Fetch the raw link from GitHub
+      fetch("https://github.com/chdsapphire/BadUsers/raw/main/User%20ID%20Helper%20%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96.user.js")
+          .then(response => response.text())
+          .then(text => {
+              // Extract the version from the fetched script
+              const match = /@version\s+([\d.]+)/.exec(text);
+              if (match) {
+                  const version = match[1];
+
+                  // Compare the version with the current version
+                  if (version > GM_info.script.version) {
+                      console.log(`A new version (${version}) is available.`);
+                      // Add your code to update the script here
+                  } else {
+                      console.log("You have the latest version.");
+                  }
+              } else {
+                  console.error("Could not extract version information.");
+              }
+          })
+          .catch(error => {
+              console.error("An error occurred while checking for updates.", error);
+          });
+  }
+
+  function runUpdateCheck() {
+      checkForUpdates();
+      setTimeout(runUpdateCheck,  60 * 60 * 1000);
+  }
+
+  runUpdateCheck();
+})();
+
 
 (function() {
   'use strict';
@@ -1353,7 +1393,7 @@
   if (link.textContent.includes("CM72370999")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
-  newElement.innerHTML = "мужчина хочет купить контакт девушки.";
+  newElement.innerHTML = "1) мужчина хочет купить контакт девушки. <br> 2)хочет купить контакт – если мужчина продолжает жаловаться, тогда жалоба будет на системе";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "ℹ️";
@@ -3824,30 +3864,6 @@
 })();
 
 
-(function() {
-  'use strict';
-  let links = document.querySelectorAll("td a");
-  links.forEach(function(link) {
-  if (link.textContent.includes("CM72370999")) {
-  let parent = link.parentElement;
-  let newElement = document.createElement("div");
-  newElement.innerHTML = "  хочет купить контакт – если мужчина продолжает жаловаться, тогда жалоба будет на системе  ";
-  newElement.style.display = "none";
-  let button = document.createElement("button");
-  button.innerHTML = "ℹ️";
-  button.style.marginLeft = "5px";
-  button.addEventListener("click", function() {
-  if (newElement.style.display === "none") {
-  newElement.style.display = "block";
-  } else {
-  newElement.style.display = "none";
-  }
-  });
-  parent.appendChild(button);
-  parent.appendChild(newElement);
- }
-});
-})();
 
 
 (function() {
