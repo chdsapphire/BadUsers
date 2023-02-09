@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper BadUsers
 // @namespace http://example.com/
-// @version 1.078
+// @version 1.079
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -389,7 +389,7 @@
   if (link.textContent.includes("CM31876079")) {
   let parent = link.parentElement;
   let newElement = document.createElement("div");
-  newElement.innerHTML = "Complaint: девушка сказала мужичне , что девушка на сайте тоже нужно тратить деньги.і";
+  newElement.innerHTML = "1)Complaint: девушка сказала мужичне , что девушка на сайте тоже нужно тратить деньги.<br>2)Complaint: сайт заметил, что девушка вводила в заблуждение мужчин, чтобы связаться с вне сайта <br> 3) мужчине недовольно, что в письмах нет пробелов и знаков препинания, и так он не сможет читать.. <br> 4)мужчине недовольно, что в чате не видел сообщение. Complaint: девушка сказала мужичне , что девушка на сайте тоже нужно тратить деньги.";
   newElement.style.display = "none";
   
   let button = document.createElement("button");
@@ -409,34 +409,9 @@
   });
   })();
   
-  (function() {
-  'use strict';
+
   
-  let links = document.querySelectorAll("td a");
-  
-  links.forEach(function(link) {
-  if (link.textContent.includes("CM31876079")) {
-  let parent = link.parentElement;
-  let newElement = document.createElement("div");
-  newElement.innerHTML = "Complaint: сайт заметил, что девушка вводила в заблуждение мужчин, чтобы связаться с вне сайта.";
-  newElement.style.display = "none";
-  
-  let button = document.createElement("button");
-  button.innerHTML = "ℹ️";
-  button.style.marginLeft = "5px";
-  button.addEventListener("click", function() {
-  if (newElement.style.display === "none") {
-  newElement.style.display = "block";
-  } else {
-  newElement.style.display = "none";
-  }
-  });
-  
-  parent.appendChild(button);
-  parent.appendChild(newElement);
-  }
-  });
-  })();
+
   
   (function() {
   'use strict';
@@ -1360,30 +1335,7 @@
   })();
   
   
-  (function() {
-  'use strict';
-  let links = document.querySelectorAll("td a");
-  links.forEach(function(link) {
-  if (link.textContent.includes("CM31876079")) {
-  let parent = link.parentElement;
-  let newElement = document.createElement("div");
-  newElement.innerHTML = "мужчине недовольно, что в письмах нет пробелов и знаков препинания, и так он не сможет читать.";
-  newElement.style.display = "none";
-  let button = document.createElement("button");
-  button.innerHTML = "ℹ️";
-  button.style.marginLeft = "5px";
-  button.addEventListener("click", function() {
-  if (newElement.style.display === "none") {
-  newElement.style.display = "block";
-  } else {
-  newElement.style.display = "none";
-  }
-  });
-  parent.appendChild(button);
-  parent.appendChild(newElement);
-  }
-  });
-  })();
+
   
   
   (function() {
@@ -1723,30 +1675,7 @@
   })();
   
   
-  (function() {
-  'use strict';
-  let links = document.querySelectorAll("td a");
-  links.forEach(function(link) {
-  if (link.textContent.includes("CM31876079")) {
-  let parent = link.parentElement;
-  let newElement = document.createElement("div");
-  newElement.innerHTML = "мужчине недовольно, что в чате не видел сообщение.Complaint: девушка сказала мужичне , что девушка на сайте тоже нужно тратить деньги.і ";
-  newElement.style.display = "none";
-  let button = document.createElement("button");
-  button.innerHTML = "ℹ️";
-  button.style.marginLeft = "5px";
-  button.addEventListener("click", function() {
-  if (newElement.style.display === "none") {
-  newElement.style.display = "block";
-  } else {
-  newElement.style.display = "none";
-  }
-  });
-  parent.appendChild(button);
-  parent.appendChild(newElement);
-  }
-  });
-  })();
+
   
   
   (function() {
