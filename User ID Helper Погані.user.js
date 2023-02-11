@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper BadUsers
 // @namespace http://example.com/
-// @version 1.080
+// @version 1.081
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -16,45 +16,6 @@
 // @downloadURL https://github.com/chdsapphire/BadUsers/raw/main/User%20ID%20Helper%20%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96.user.js
 // ==/UserScript==
 
-//Перевірка
-(function() {
-  'use strict';
-
-  function checkForUpdates() {
-      console.log("Checking for updates...");
-
-      // Fetch the raw link from GitHub
-      fetch("https://github.com/chdsapphire/BadUsers/raw/main/User%20ID%20Helper%20%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96.user.js")
-          .then(response => response.text())
-          .then(text => {
-              // Extract the version from the fetched script
-              const match = /@version\s+([\d.]+)/.exec(text);
-              if (match) {
-                  const version = match[1];
-
-                  // Compare the version with the current version
-                  if (version > GM_info.script.version) {
-                      console.log(`A new version (${version}) is available.`);
-                      // Add your code to update the script here
-                  } else {
-                      console.log("You have the latest version.");
-                  }
-              } else {
-                  console.error("Could not extract version information.");
-              }
-          })
-          .catch(error => {
-              console.error("An error occurred while checking for updates.", error);
-          });
-  }
-
-  function runUpdateCheck() {
-      checkForUpdates();
-      setTimeout(runUpdateCheck,  60 * 60 * 1000);
-  }
-
-  runUpdateCheck();
-})();
 
 
 (function() {
@@ -3807,6 +3768,81 @@
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "‼️Поганець❌";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM28277965")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM28277965-жалоба что не доставлен подарок  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM57458096")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM57458096-жалоба на сплит";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM41758012")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "CM41758012-Ron Samuel  - жмот, жалуется когда у девушки включена камера ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
   button.style.marginLeft = "5px";
   button.addEventListener("click", function() {
   if (newElement.style.display === "none") {
