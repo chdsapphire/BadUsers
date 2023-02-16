@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper BadUsers
 // @namespace http://example.com/
-// @version 1.082
+// @version 1.083
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -4395,6 +4395,31 @@
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM54822352")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "Luis - CM54822352 – очень проблемный и может писать на другие платформы и искать её, обвиняет что она фальшивка и тд и тпмужчина несет угрозу  жалобами сразу , он сказал что будет писать на разные сайты и искать ее. ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "Поганець❌";
   button.style.marginLeft = "5px";
   button.addEventListener("click", function() {
   if (newElement.style.display === "none") {
