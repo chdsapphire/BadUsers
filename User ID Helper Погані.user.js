@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name User ID Helper BadUsers
 // @namespace http://example.com/
-// @version 1.085
+// @version 1.086
 // @description Adds a helper message near user ID
 // @author Me
 // @match http://www.charmdate.com/**
@@ -4893,6 +4893,56 @@
   let parent = link.parentElement;
   let newElement = document.createElement("div");
   newElement.innerHTML = "мужчина не сможет хорошо понять письмо девушки.Листи можнливо перевіряють  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM84375318")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "мужчина писал сайту. Он сказал, что девушка не верит сайт. Потому что сайт не разрешает девушка дать мужчине контакт.  ";
+  newElement.style.display = "none";
+  let button = document.createElement("button");
+  button.innerHTML = "ℹ️";
+  button.style.marginLeft = "5px";
+  button.addEventListener("click", function() {
+  if (newElement.style.display === "none") {
+  newElement.style.display = "block";
+  } else {
+  newElement.style.display = "none";
+  }
+  });
+  parent.appendChild(button);
+  parent.appendChild(newElement);
+ }
+});
+})();
+
+(function() {
+  'use strict';
+  let links = document.querySelectorAll("td a");
+  links.forEach(function(link) {
+  if (link.textContent.includes("CM80252112")) {
+  let parent = link.parentElement;
+  let newElement = document.createElement("div");
+  newElement.innerHTML = "Мужчине похоже не довольно, что девушка не согласилась встречаться. И так мужчина сейчас писал сайту, он хочет закрывать аккаунт.  ";
   newElement.style.display = "none";
   let button = document.createElement("button");
   button.innerHTML = "ℹ️";
